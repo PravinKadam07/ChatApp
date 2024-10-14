@@ -1,9 +1,7 @@
-import React from 'react'
-import "./myStyle.css"
+import React from "react";
+import "./myStyle.css";
 function WorkArea() {
-  return (
-    <div className='work-area'>WorkArea</div>
-  )
+  return <div className="workArea-container">WorkArea</div>;
 }
 
-export default WorkArea
+export default WorkArea;
