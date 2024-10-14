@@ -38,6 +38,7 @@
   border: none;
   margin-left: 10px;
   font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.54);
 }
 .sb-conversations {
   background-color: white;
@@ -64,7 +65,7 @@
   background-color: #d9d9d9;
   height: 32px;
   width: 32px;
-  padding: 3px;
+  padding: 5px;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.25rem;
@@ -72,6 +73,7 @@
   border-radius: 50%;
   justify-self: center;
   align-self: center;
+  margin-right: 3px;
 }
 
 .con-title {
@@ -95,9 +97,70 @@
   background-color: orange;
 }
 .chatArea-message {
-  background-color: aqua;
+  background-color: white;
   flex: 1;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: scroll;
 }
 .text-input-box {
-  background-color: yellow;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatArea-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.message-other-container {
+  display: flex;
+  gap: 10px;
+}
+.self-message-container {
+  display: flex;
+  justify-content: end;
+}
+
+.other-text-content {
+  background-color: #d9d9d9;
+  padding: 8px 8px;
+  margin: 5px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageBox {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #63d7b0;
+  padding: 8px 8px;
+  margin: 5px;
+  border-radius: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.self-timeStamp {
+  align-self: flex-end;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
 }
