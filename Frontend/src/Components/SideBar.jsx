@@ -50,7 +50,11 @@ function SideBar() {
         </div>
       </div>
       <div className="sb-search">
-        <SearchIcon />
+        <IconButton>
+          {" "}
+          <SearchIcon />
+        </IconButton>
+
         <input placeholder="search" className="search-box" />
       </div>
       <div className="sb-conversations">
