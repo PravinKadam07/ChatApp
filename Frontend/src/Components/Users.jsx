@@ -2,7 +2,7 @@ import React from "react";
 import "./myStyle.css";
 import { IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-function User_Groups() {
+function Users() {
   return (
     <div className="list-container">
       <div className="ug-header">
@@ -11,7 +11,7 @@ function User_Groups() {
           style={{ height: "2rem", width: "2rem" }}
           alt=""
         />
-        <p className="ug-title">Available Groups</p>
+        <p className="ug-title">Online Users</p>
       </div>
 
       <div className="sb-search">
@@ -59,4 +59,4 @@ function User_Groups() {
   );
 }
 
-export default User_Groups;
+export default Users;
