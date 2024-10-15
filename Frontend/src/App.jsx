@@ -1,17 +1,16 @@
-import './App.css'
-import MainContainer from './Components/MainContainer'
+import "./App.css";
+import Login from "./Components/Login";
+import MainContainer from "./Components/MainContainer";
 
 function App() {
- 
-
   return (
     <>
       <div className="App">
-      <MainContainer/>
+        <MainContainer />
+        {/* <Login/> */}
       </div>
-     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
